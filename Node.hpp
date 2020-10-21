@@ -38,3 +38,9 @@ T Node<T>::getValue() const;
 {
 	return m_entry;
 }
+
+template <typename T>
+void Node<T>::setValue(T value)
+{
+	m_entry = value;
+}

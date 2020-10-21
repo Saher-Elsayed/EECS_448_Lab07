@@ -39,11 +39,18 @@ class Node
 	*/
 	void setEntry(T value);
 
+	/**
+	*   @pre None
+	*   @post None
+	*   @return Returns the value stored in the node	
+	*/
+	T getValue() const;
+
 	/** @pre the value is a valid T.
 	*   @post Stores the value in the node
 	*   @return None
 	*/
-	T getValue() const;
+	void setValue(T Value)
 
 	protected:
 	T m_entry;
