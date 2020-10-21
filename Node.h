@@ -50,7 +50,7 @@ class Node
 	*   @post Stores the value in the node
 	*   @return None
 	*/
-	void setValue(T Value)
+	void setValue(T Value);
 
 	protected:
 	T m_entry;

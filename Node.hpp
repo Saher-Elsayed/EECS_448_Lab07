@@ -34,7 +34,7 @@ void Node<T>::setEntry(T entry)
 }
 
 template <typename T>
-T Node<T>::getValue() const;
+T Node<T>::getValue() const
 {
 	return m_entry;
 }
